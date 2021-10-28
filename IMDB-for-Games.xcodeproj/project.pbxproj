@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664397472722F73A009A9996 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664397462722F73A009A9996 /* NetworkManager.swift */; };
+		664397492722FCE8009A9996 /* Image+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664397482722FCE8009A9996 /* Image+Network.swift */; };
+		6643974B2722FE6D009A9996 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643974A2722FE6D009A9996 /* NetworkImage.swift */; };
+		664397522726CAF6009A9996 /* DetailSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664397512726CAF6009A9996 /* DetailSceneViewModel.swift */; };
+		664397542726CB09009A9996 /* DetailSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664397532726CB09009A9996 /* DetailSceneView.swift */; };
 		66C6A6E027218ECC001953C0 /* IMDB_for_GamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A6DF27218ECC001953C0 /* IMDB_for_GamesApp.swift */; };
 		66C6A6E227218ECC001953C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A6E127218ECC001953C0 /* ContentView.swift */; };
 		66C6A6E427218ECD001953C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C6A6E327218ECD001953C0 /* Assets.xcassets */; };
@@ -18,11 +23,17 @@
 		66C6A70527219D69001953C0 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A70427219D69001953C0 /* SliderView.swift */; };
 		66C6A70927219F01001953C0 /* SliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A70827219F01001953C0 /* SliderViewModel.swift */; };
 		66C6A70E2721A0D6001953C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A70D2721A0D6001953C0 /* CardView.swift */; };
-		66C6A7102721A37E001953C0 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A70F2721A37E001953C0 /* TestModel.swift */; };
-		66C6A7122721ACDD001953C0 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A7112721ACDD001953C0 /* GamesModel.swift */; };
+		66C6A7122721ACDD001953C0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A7112721ACDD001953C0 /* DataModel.swift */; };
+		66C6A7162722F2D8001953C0 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6A7152722F2D8001953C0 /* HomeScreenViewModel.swift */; };
+		66F01903272AB72600D7CE8F /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F01902272AB72600D7CE8F /* FavoritesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664397462722F73A009A9996 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		664397482722FCE8009A9996 /* Image+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Network.swift"; sourceTree = "<group>"; };
+		6643974A2722FE6D009A9996 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		664397512726CAF6009A9996 /* DetailSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSceneViewModel.swift; sourceTree = "<group>"; };
+		664397532726CB09009A9996 /* DetailSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSceneView.swift; sourceTree = "<group>"; };
 		66C6A6DC27218ECC001953C0 /* IMDB-for-Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMDB-for-Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C6A6DF27218ECC001953C0 /* IMDB_for_GamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDB_for_GamesApp.swift; sourceTree = "<group>"; };
 		66C6A6E127218ECC001953C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,8 +46,9 @@
 		66C6A70427219D69001953C0 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		66C6A70827219F01001953C0 /* SliderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewModel.swift; sourceTree = "<group>"; };
 		66C6A70D2721A0D6001953C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		66C6A70F2721A37E001953C0 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
-		66C6A7112721ACDD001953C0 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
+		66C6A7112721ACDD001953C0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		66C6A7152722F2D8001953C0 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		66F01902272AB72600D7CE8F /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664397452722F723009A9996 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				664397462722F73A009A9996 /* NetworkManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6643974C2726CAB5009A9996 /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				6643974E2726CACC009A9996 /* ViewModel */,
+				6643974D2726CAC8009A9996 /* View */,
+			);
+			name = DetailScene;
+			sourceTree = "<group>";
+		};
+		6643974D2726CAC8009A9996 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				664397532726CB09009A9996 /* DetailSceneView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6643974E2726CACC009A9996 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				664397512726CAF6009A9996 /* DetailSceneViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		66C6A6D327218ECC001953C0 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +114,7 @@
 		66C6A6DE27218ECC001953C0 /* IMDB-for-Games */ = {
 			isa = PBXGroup;
 			children = (
+				664397452722F723009A9996 /* Helper */,
 				66C6A700272196D3001953C0 /* Extension */,
 				66C6A6FF27219541001953C0 /* Model */,
 				66C6A6F3272191D7001953C0 /* Common */,
@@ -92,6 +138,7 @@
 		66C6A6EF27218FD8001953C0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				6643974C2726CAB5009A9996 /* DetailScene */,
 				66C6A6F727219228001953C0 /* HomeScene */,
 				66C6A6F027218FE0001953C0 /* Favorites */,
 			);
@@ -118,6 +165,7 @@
 		66C6A6F22721905C001953C0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				66F01902272AB72600D7CE8F /* FavoritesViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -158,6 +206,7 @@
 		66C6A6F927219246001953C0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				66C6A7152722F2D8001953C0 /* HomeScreenViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -175,8 +224,7 @@
 		66C6A6FF27219541001953C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				66C6A70F2721A37E001953C0 /* TestModel.swift */,
-				66C6A7112721ACDD001953C0 /* GamesModel.swift */,
+				66C6A7112721ACDD001953C0 /* DataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				66C6A701272196E6001953C0 /* View+DismissKeyboard.swift */,
+				664397482722FCE8009A9996 /* Image+Network.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				66C6A70827219F01001953C0 /* SliderViewModel.swift */,
+				6643974A2722FE6D009A9996 /* NetworkImage.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -309,12 +359,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C6A702272196E6001953C0 /* View+DismissKeyboard.swift in Sources */,
+				664397522726CAF6009A9996 /* DetailSceneViewModel.swift in Sources */,
+				664397542726CB09009A9996 /* DetailSceneView.swift in Sources */,
+				6643974B2722FE6D009A9996 /* NetworkImage.swift in Sources */,
 				66C6A6FD2721949A001953C0 /* FavoritesView.swift in Sources */,
+				664397492722FCE8009A9996 /* Image+Network.swift in Sources */,
 				66C6A6E227218ECC001953C0 /* ContentView.swift in Sources */,
-				66C6A7122721ACDD001953C0 /* GamesModel.swift in Sources */,
+				66F01903272AB72600D7CE8F /* FavoritesViewModel.swift in Sources */,
+				664397472722F73A009A9996 /* NetworkManager.swift in Sources */,
+				66C6A7122721ACDD001953C0 /* DataModel.swift in Sources */,
+				66C6A7162722F2D8001953C0 /* HomeScreenViewModel.swift in Sources */,
 				66C6A6F627219200001953C0 /* SearchBarView.swift in Sources */,
 				66C6A6FB2721925F001953C0 /* HomePageView.swift in Sources */,
-				66C6A7102721A37E001953C0 /* TestModel.swift in Sources */,
 				66C6A6E027218ECC001953C0 /* IMDB_for_GamesApp.swift in Sources */,
 				66C6A70527219D69001953C0 /* SliderView.swift in Sources */,
 				66C6A70927219F01001953C0 /* SliderViewModel.swift in Sources */,

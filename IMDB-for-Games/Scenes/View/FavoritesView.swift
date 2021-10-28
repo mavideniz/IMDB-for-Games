@@ -12,9 +12,7 @@ struct FavoritesView: View {
         ZStack{
             VStack{
                 List{
-                    Text("test anam")
-                    Text("test anam2")
-                    Text("test anam3")
+                    Text("test")
                 }
             }
         }
