@@ -7,9 +7,7 @@
 
 import Foundation
 
-//https://api.rawg.io/api/games?key=ce950da61e1d4a4ab0f2fc3faee8a4ea
 
-//https://api.rawg.io/api/games/3498?key=ce950da61e1d4a4ab0f2fc3faee8a4ea Details
 
 
 class NetworkManager {
